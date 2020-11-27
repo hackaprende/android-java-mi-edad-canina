@@ -26,11 +26,11 @@ public class MainActivity extends AppCompatActivity {
                 int ageInt = Integer.parseInt(age);
 
                 int result = ageInt * 7;
-                String resultString = "Si fueras perro, tu edad sería " + result + " años";
+                String resultString = getString(R.string.result_format, result);
                 resultText.setText(resultString);
             } else {
                 Log.d("MainActivity", "Age field is empty");
-                Toast.makeText(this, "Debes insertar una edad", Toast.LENGTH_SHORT).show();
+                Toast.makeText(this, getString(R.string.you_have_to_insert_an_age), Toast.LENGTH_SHORT).show();
             }
         });
     }
