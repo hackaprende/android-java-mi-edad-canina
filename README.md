@@ -1,5 +1,5 @@
 # Mi edad canina
-Esta aplicación es parte del curso [Android Completo con Kotlin](https://hackaprende.com/android-completo-con-java/)
+Esta aplicación es parte del curso [Android Completo con Java](https://hackaprende.com/android-completo-con-java/)
 
 Con este ejercicio aprenderás los siguientes temas sobre Android:
 - Android Views.
